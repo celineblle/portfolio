@@ -28,7 +28,7 @@ const portforlioDescription: string = "Il s'agit ici de vous presenter mes comp�
 const portfolioCommentaire: string = "";
 
 const moreAieIntro: string = "Site de micromessage partageant les meilleurs posts de skyblog."
-const moreAieDescription: string = "Attention à vos yeux et votre bescherelle, ici tout est choisi pour une immersion total dans l'ancien monde de Skyblog."
+const moreAieDescription: string = "Attention à vos yeux et votre bescherelle, ici tout est choisi pour une immersion totale dans l'ancien monde de Skyblog. Étendard de l'internet des années 2000, est pour les adolescents de cette époque, un premier pas dans l'expression personnalisée de soi sur internet. On y trouve le langage sms, des sujets divers et du grotesque"
 const moreAieCommentaire: string = "Projet full stack React et ExpressJs.";
 
 const shortIntro: string = "Site de partage de video autour du developpement web.";
