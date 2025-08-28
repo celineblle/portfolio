@@ -48,7 +48,7 @@ export const allInterests: Interest[] = [
 },
 ]
 
-export const filmsRecommandations: Interest[] = [
+export const moviesRecommandations: Interest[] = [
     {
     id: "0",
     name: "Voir Everything everywhere all at once",
@@ -100,7 +100,7 @@ export const filmsRecommandations: Interest[] = [
 },
 ]
 
-export const bookRecommandation: Interest[] = [
+export const booksRecommandation: Interest[] = [
     {
     id: "0",
     name: "Lire Demon de Jason Shiga",
