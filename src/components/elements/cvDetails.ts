@@ -147,7 +147,7 @@ export const allContents: Content[] = [
   },
 ];
 
-export const allSections: Section[] = [
+export const allCVSection: Section[] = [
   {
     id: "00",
     name: "Etudes",
