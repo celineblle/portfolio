@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Rock3D";
+  src: url("../public/Rock3D-Regular.ttf");
+}
+
+
+h2,
+h3,
+h4 {
+  font-family: haettenschweiler, Impact;
+}
+
+h1 {
+  font-size: 17rem;
+  text-align: center;
+  margin: 0;
+  font-family: "Rock3D", haettenschweiler, Impact;
+}
+
+h2 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+p,
+li {
+  font-family: helvetica, Arial;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,29 @@
+.closeCard {
+    display: none;
+}
+
+.openCard ul ul {
+padding: 0;
+}
+
+/* Pour Chrome/Safari/Edge */
+.openCard::-webkit-scrollbar {
+  width: 8px;
+}
+
+.openCard::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.openCard::-webkit-scrollbar-thumb {
+  background-color: pink;
+  border-radius: 4px;
+}
+
+/* Pour Firefox */
+.openCard {
+    overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: pink transparent;
+  height: 100%;
+}

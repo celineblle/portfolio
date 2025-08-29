@@ -15,13 +15,13 @@ const bacDescription: string =
 const DTMSDescription: string =
   "Apprentissage des techniques de l'habillage théâtre, techniques de couture spécifique, histoire approfondie du costume et modélisme historique.";
 const titreDevDescription: string =
-  "Apprentissage des langague, framework et outils de developpement web full stack. Développement de projet full stack en équipe.";
+  "Apprentissage des langage, framework et outils de développement web full stack. Développement de projet full stack en équipe.";
 const vendeuseDescription: string =
-  "Developpement du chiffre d'affaire et KPIS.";
+  "Développement du chiffre d'affaire et KPIS.";
 const adjointeDescription: string =
   "Support management, administratif et vente.";
 const responsableBoutique: string =
-  "Gestion de boutique( administratif et presentation des produits), management(recrutement, formation et gestion d'équipe) et developpement du chiffre d'affaire.";
+  "Gestion de boutique( administratif et presentation des produits), management(recrutement, formation et gestion d'équipe) et développement du chiffre d'affaire.";
 const reactDescription: string =
   "Maitrise de la bibliothèque et création de projet.";
 const typescriptDescription: string =
@@ -31,17 +31,17 @@ const expressDescription: string =
 const sqlDescription: string =
   "Modélisation de BDD avec la méthode Merise, création et integration de BDD avec MySql.";
 const nodeDescription: string =
-  "Utilisation de NodeJs pour le developpement des projets React front et React/ExpressJs full stack.";
+  "Utilisation de NodeJs pour le développement des projets React front et React/ExpressJs full stack.";
 const gitDescription: string =
-  "Maitrise et utilisation des commandes courantes de git pour le developpement des projets. Utilisation de Github pour la gestion à distance des projets personnels et en équipe.";
+  "Maitrise et utilisation des commandes courantes de git pour le développement des projets. Utilisation de Github pour la gestion à distance des projets personnels et en équipe.";
 const angularDescription: string =
-  "En cour d'apprentissage du framework. Developpement d'un projet en simultané pour consolider les connaissances.";
+  "En cour d'apprentissage du framework. Développement d'un projet en simultané pour consolider les connaissances.";
 const javaDescription: string =
-  "En cour d'apprentissage. Base de la POO en Java vanilla, et consolidation des connaissances avec des execices.";
+  "En cour d'apprentissage. Base de la POO en Java vanilla, et consolidation des connaissances avec des exercices.";
 const logicielDescription: string =
   "Utilisation des logiciel: VS code (React, ExpressJs, Angular), Postman, MySQL Workbench, IntelliJ (Java).";
 const coutureDescription: string =
-  "Création et modification de patron, techniques de couture flou, spécificitées technique des matières.";
+  "Création et modification de patron, techniques de couture flou, spécificité technique des matières.";
 const venteDescription: string =
   "Discours de vente, technique de vente pour augmenter les indicateurs de vente (KPIS).";
 const managementDescription: string =
