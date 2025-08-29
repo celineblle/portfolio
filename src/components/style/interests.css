@@ -1,0 +1,67 @@
+#interestsComponent {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#interestsTitle {
+  padding: 40px;
+  font-size: 5rem;
+}
+
+/* Texte défilant */
+.interestDefilant {
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.interestDefilant div {
+  position: absolute;
+  min-width: 100%; 
+}
+
+.interestDefilant div ul {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  white-space: nowrap;
+  top: 0;
+
+}
+
+#allInterest {
+animation: defilement 40s infinite linear;    
+}
+
+#moviesRecommandation {
+animation: defilement 60s infinite linear;    
+animation-direction: reverse;
+}
+
+#booksRecommandation {
+animation: defilement 60s infinite linear;    
+}
+
+.interestsText {
+  flex-shrink: 0;
+  margin: 5px;
+  color: white;
+  font-size: 4rem;
+}
+
+@keyframes defilement {
+0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

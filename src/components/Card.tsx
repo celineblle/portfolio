@@ -1,5 +1,6 @@
 import { type Stack} from "./elements/stacksAndProjets";
 import { type Section } from "./elements/cvDetails";
+import "./style/card.css"
 
 function Card({subject} : {subject: Stack | Section}) {
   
@@ -16,10 +17,10 @@ const currentSubjectArray = getTheSubjetArray();
 
 
   return (
-    <div>
+    <>
       {currentSubjectArray.map((card) => (
         <ul key={card.id}>
-        <h3 >{card.name}</h3>
+        <h4>{card.name}</h4>
         {typeof card.description === "string" ?
       <li>
         {card.description}
@@ -32,7 +33,7 @@ const currentSubjectArray = getTheSubjetArray();
       }
         </ul>
       ))}
-    </div>
+    </>
   )
 
   

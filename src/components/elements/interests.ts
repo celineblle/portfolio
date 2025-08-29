@@ -26,7 +26,7 @@ export const allInterests: Interest[] = [
     name: "BattleBots",
 },{
     id: "6",
-    name: "Bourses et systemes financier",
+    name: "Bourses et systèmes financier",
 },{
     id: "7",
     name: "Lecture",
@@ -41,7 +41,7 @@ export const allInterests: Interest[] = [
     name: "Analyse de film",
 },{
     id: "11",
-    name: "Bienale d'art contemporain",
+    name: "Biennale d'art contemporain",
 },{
     id: "12",
     name: "Visiter des musées",
