@@ -24,7 +24,7 @@
 
 .interestDefilant div {
   position: absolute;
-  min-width: 100%; 
+  min-width: 100%;
 }
 
 .interestDefilant div ul {
@@ -34,20 +34,19 @@
   font-size: 2rem;
   white-space: nowrap;
   top: 0;
-
 }
 
 #allInterest {
-animation: defilement 40s infinite linear;    
+  animation: defilement 40s infinite linear;
 }
 
 #moviesRecommandation {
-animation: defilement 60s infinite linear;    
-animation-direction: reverse;
+  animation: defilement 60s infinite linear;
+  animation-direction: reverse;
 }
 
 #booksRecommandation {
-animation: defilement 60s infinite linear;    
+  animation: defilement 60s infinite linear;
 }
 
 .interestsText {
@@ -58,7 +57,7 @@ animation: defilement 60s infinite linear;
 }
 
 @keyframes defilement {
-0% {
+  0% {
     transform: translateX(0);
   }
   100% {

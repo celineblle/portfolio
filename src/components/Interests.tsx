@@ -20,14 +20,13 @@ function Interests() {
                 {interest.name} &#x2022;
               </li>
             ))}
-              {allInterests.map((interest) => (
+            {allInterests.map((interest) => (
               <li key={interest.id} className="interestsText">
                 {interest.name} &#x2022;
               </li>
             ))}
           </ul>
         </div>
-      
       </div>
       <div className="interestDefilant">
         <div>

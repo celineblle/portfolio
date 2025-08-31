@@ -11,7 +11,6 @@ export type Project = {
   link: string;
 };
 
-
 const macBuIntro: string =
   "Projet de reprise de code et des techniques. Vaste mais non complexe.";
 const macBuDescription =
@@ -25,29 +24,37 @@ const macBu2Commentaire: string =
   'Lecture du livre "Coder proprement" de Robert C. Martin pour intégrer des bonnes pratiques de développement.';
 
 const portfolioIntro: string = "Presentation en situation de mes competences.";
-const portforlioDescription: string = "Il s'agit ici de vous presenter mes compétences de développement web en \"situation\".";
+const portforlioDescription: string =
+  'Il s\'agit ici de vous presenter mes compétences de développement web en "situation".';
 const portfolioCommentaire: string = "";
 
-const moreAieIntro: string = "Site de micromessage partageant les meilleurs posts de skyblog."
-const moreAieDescription: string = "Attention à vos yeux et votre bescherelle, ici tout est choisi pour une immersion totale dans l'ancien monde de Skyblog. Étendard de l'internet des années 2000, est pour les adolescents de cette époque, un premier pas dans l'expression personnalisée de soi sur internet. On y trouve le langage sms, des sujets divers et du grotesque"
+const moreAieIntro: string =
+  "Site de micromessage partageant les meilleurs posts de skyblog.";
+const moreAieDescription: string =
+  "Attention à vos yeux et votre bescherelle, ici tout est choisi pour une immersion totale dans l'ancien monde de Skyblog. Étendard de l'internet des années 2000, est pour les adolescents de cette époque, un premier pas dans l'expression personnalisée de soi sur internet. On y trouve le langage sms, des sujets divers et du grotesque";
 const moreAieCommentaire: string = "Projet full stack React et ExpressJs.";
 
-const shortIntro: string = "Site de partage de video autour du développement web.";
-const shortDescription: string = "Inspiré de Netflix, Youtube et Disney+, Short Digital propose un ensemble de videos autour du développement web. Vous y trouverez de quoi apprendre un nouveau language ou comment ce petit truc de css qui fait toute la difference.";
-const shortCommentaire: string = "Projet de fin de formation en React et ExpressJs. Réalisé en équipe de 3 développeurs.";
+const shortIntro: string =
+  "Site de partage de video autour du développement web.";
+const shortDescription: string =
+  "Inspiré de Netflix, Youtube et Disney+, Short Digital propose un ensemble de videos autour du développement web. Vous y trouverez de quoi apprendre un nouveau language ou comment ce petit truc de css qui fait toute la difference.";
+const shortCommentaire: string =
+  "Projet de fin de formation en React et ExpressJs. Réalisé en équipe de 3 développeurs.";
 
 const kanbanIntro: string = "Kandan en ligne.";
-const kanbanDescription: string = "Projet simple de kanban pour appliquer en situation les notions durant l'apprentissage d'Angular.";
+const kanbanDescription: string =
+  "Projet simple de kanban pour appliquer en situation les notions durant l'apprentissage d'Angular.";
 const kanbanCommentaire: string = "Projet fil rouge front Angular.";
 
 const javaTrainingIntro: string = "Exercices sur les notions de base en java";
-const javaTrainingDescription: string = "Notions de base en java : String, types primitifs, Object, Array, Variable";
+const javaTrainingDescription: string =
+  "Notions de base en java : String, types primitifs, Object, Array, Variable";
 const javaTrainingCommentaire: string = "Apprentissage actif de java";
 
 const javaExIntro: string = "Exercices en java";
-const javaExDescription: string = "Notion un peu plus avancé de java: List, Map, Stream, Generics, Set";
+const javaExDescription: string =
+  "Notion un peu plus avancé de java: List, Map, Stream, Generics, Set";
 const javaExCommentaire: string = "Apprentissage actif de java";
-
 
 export const allProjects: Project[] = [
   {
@@ -89,7 +96,11 @@ export const allProjects: Project[] = [
   {
     id: "06",
     name: "exercices-java-1-java-training",
-    description: [javaTrainingIntro, javaTrainingDescription, javaTrainingCommentaire],
+    description: [
+      javaTrainingIntro,
+      javaTrainingDescription,
+      javaTrainingCommentaire,
+    ],
     link: "https://github.com/celineblle/exercices-java-1-java-training",
   },
   {
