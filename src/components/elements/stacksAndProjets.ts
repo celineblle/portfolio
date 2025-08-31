@@ -8,6 +8,7 @@ export type Project = {
   id: string;
   name: string;
   description: string[];
+  link: string;
 };
 
 
@@ -53,41 +54,49 @@ export const allProjects: Project[] = [
     id: "00",
     name: "MacBu",
     description: [macBuIntro, macBuDescription, macBuCommentaire],
+    link: "https://github.com/celineblle/macbu",
   },
   {
     id: "01",
     name: "MacBu 2",
     description: [macBu2Intro, macBu2Description, macBu2Commentaire],
+    link: "https://github.com/celineblle/macbu_2",
   },
   {
     id: "02",
     name: "Portfolio",
     description: [portfolioIntro, portforlioDescription, portfolioCommentaire],
+    link: "https://github.com/celineblle/portfolio",
   },
   {
     id: "03",
     name: "more AÏE in the sky",
     description: [moreAieIntro, moreAieDescription, moreAieCommentaire],
+    link: "https://github.com/celineblle/moreAIEinTheSky",
   },
   {
     id: "04",
     name: "Short Digital",
     description: [shortIntro, shortDescription, shortCommentaire],
+    link: "https://github.com/DevChris38/P3_forked",
   },
   {
     id: "05",
     name: "Kanban",
     description: [kanbanIntro, kanbanDescription, kanbanCommentaire],
+    link: "https://github.com/celineblle/kanban",
   },
   {
     id: "06",
     name: "exercices-java-1-java-training",
     description: [javaTrainingIntro, javaTrainingDescription, javaTrainingCommentaire],
+    link: "https://github.com/celineblle/exercices-java-1-java-training",
   },
   {
     id: "07",
     name: "java_execices",
     description: [javaExIntro, javaExDescription, javaExCommentaire],
+    link: "https://github.com/celineblle/java_exercices",
   },
 ];
 
