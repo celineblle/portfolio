@@ -1,0 +1,52 @@
+.columnComponent {
+  height: 100vh;
+}
+
+.columnContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2vw;
+  height: 60vh;
+  width: 95vw;
+}
+
+.columnContent ul {
+  padding: 10px;
+}
+
+.closeColumn:hover,
+.openColumn:hover {
+  color: pink;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.closeColumn {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.openColumn {
+  width: 40vw;
+  color: pink;
+}
+
+.closeColumnTitle {
+  font-size: 4rem;
+  margin: 0;
+  height: 20vw;
+  width: 60vh;
+  transform: rotate(90deg);
+}
+
+.openColumnTitle,
+h4 {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
