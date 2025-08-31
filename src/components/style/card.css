@@ -1,9 +1,9 @@
 .closeCard {
-    display: none;
+  display: none;
 }
 
 .openCard ul ul {
-padding: 0;
+  padding: 0;
 }
 
 /* Pour Chrome/Safari/Edge */
@@ -22,7 +22,7 @@ padding: 0;
 
 /* Pour Firefox */
 .openCard {
-    overflow-y: scroll;
+  overflow-y: scroll;
   scrollbar-width: thin;
   scrollbar-color: pink transparent;
   height: 100%;
@@ -30,7 +30,7 @@ padding: 0;
 
 .projectButton {
   background-color: pink;
-  /* padding: 3px 6px; */
+
   margin: 10px;
   display: inline-flex;
   align-items: center;
@@ -105,4 +105,3 @@ a {
   text-decoration: none;
   color: rgb(37, 37, 37);
 }
-

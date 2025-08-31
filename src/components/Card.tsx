@@ -28,12 +28,14 @@ function Card({ subject }: { subject: Stack | Section }) {
               ))}
             </ul>
           )}
-          {"link" in card && <button className="projectButton">
-            Lien Github
-            <div className="hoverEffect">
-            <a href={card.link} target="_blank"></a>
-            </div>
-            </button>}
+          {"link" in card && (
+            <button className="projectButton">
+              Lien Github
+              <div className="hoverEffect">
+                <a href={card.link} target="_blank"></a>
+              </div>
+            </button>
+          )}
         </ul>
       ))}
     </>

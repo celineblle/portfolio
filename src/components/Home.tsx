@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="home">
       <div className="titleContainer">
-      <h1>CELINE BAILLE</h1>
+        <h1>CELINE BAILLE</h1>
       </div>
       <div className="pageContent">
         <Column arrayKeyId={"stack"} />
